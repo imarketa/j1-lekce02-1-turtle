@@ -23,6 +23,7 @@ public class HlavniProgram {
         zofka.move(108);
         zofka.turnRight(135);
         zofka.move(150);
+        //test
 
     }
 
