@@ -9,6 +9,8 @@ public class HlavniProgram {
     public void main(String[] args) {
         Turtle zofka;
 
+
+
         zofka = new Turtle();
         zofka.setPenColor(Color.blue);
         zofka.turnLeft(180);
@@ -25,6 +27,10 @@ public class HlavniProgram {
         zofka.move(150);
         //test
 
-    }
+        //vytvořím metodu
+
 
 }
+}
+
+
