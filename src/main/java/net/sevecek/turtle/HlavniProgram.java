@@ -57,9 +57,11 @@ public class HlavniProgram {
             zofka.penDown();
         }
 
-        //doplnit přesun ke sluníčku a paprsky, jméno!!
+        //doplnit přesun ke sluníčku a paprsky
 
         SlunickoSpaprsky(zofka);
+
+        //doplnit jméno
 
     }
 
