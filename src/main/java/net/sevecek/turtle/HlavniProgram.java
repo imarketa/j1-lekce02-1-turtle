@@ -14,6 +14,9 @@ public class HlavniProgram {
         NakresliDomecek(zofka);
         NakresliPrasatko(zofka);
 
+        //nakresli sluníčko
+
+
     }
 
     private void NakresliPrasatko(Turtle zofka) {
