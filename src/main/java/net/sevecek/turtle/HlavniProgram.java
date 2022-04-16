@@ -56,6 +56,9 @@ public class HlavniProgram {
             zofka.turnRight(90);
             zofka.penDown();
         }
+
+        //doplnit přesun ke sluníčku a paprsky!!
+
         SlunickoSpaprsky(zofka);
 
     }
