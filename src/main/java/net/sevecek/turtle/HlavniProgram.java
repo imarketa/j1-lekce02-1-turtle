@@ -101,7 +101,6 @@ public class HlavniProgram {
         zofka.move(80);
         zofka.turnLeft(90);
 
-
     }
 
 
