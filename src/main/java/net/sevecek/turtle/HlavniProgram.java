@@ -63,9 +63,6 @@ public class HlavniProgram {
 
         Slunce(zofka);
 
-        //přesun o slunce k nápisu
-
-
     }
 
     private void Slunce(Turtle zofka) {
