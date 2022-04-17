@@ -3,8 +3,6 @@ package net.sevecek.turtle;
 import net.sevecek.turtle.engine.*;
 
 import java.awt.*;
-import java.lang.annotation.Native;
-import java.util.concurrent.LinkedTransferQueue;
 
 public class HlavniProgram {
 
@@ -63,23 +61,59 @@ public class HlavniProgram {
 
         Slunce(zofka);
 
+        //přesun ke jménu
+        zofka.penUp();
+        zofka.turnLeft(35);
+        zofka.move(850);
+        zofka.turnRight(165);
+
+        //jméno
+        //M
+        zofka.penDown();
+        zofka.move(100);
+        zofka.turnRight(135);
+        zofka.move(50);
+        zofka.turnLeft(90);
+        zofka.move(50);
+        zofka.turnRight(135);
+        zofka.move(100);
+        zofka.turnLeft(90);
+        zofka.penUp();
+
+        zofka.move(20);
+        zofka.turnLeft(90);
+
+        //A
+        zofka.penDown();
+        zofka.turnRight(15);
+        zofka.move(100);
+        zofka.turnRight(145);
+        zofka.move(100);
+        zofka.turnRight(180);
+        zofka.move(45);
+        zofka.turnLeft(70);
+        zofka.move(30);
+        zofka.turnLeft(90);
+        zofka.penUp();
+        zofka.move(45);
+        zofka.turnLeft(90);
+
+        zofka.move(80);
+        zofka.turnLeft(90);
+
+
     }
+
 
     private void Slunce(Turtle zofka) {
         for (int i = 0; 50 > i; i++) {
             zofka.penDown();
             zofka.move(6);
             zofka.turnLeft(8);
-        }
+     }
     }
 
 
-    private void Paprsek(Turtle zofka) {
-        zofka.move(30);
-        zofka.turnLeft(180);
-        zofka.move(30);
-        zofka.turnLeft(180);
-    }
 
     private void NakresliPrasatko(Turtle zofka) {
         //nakresli prasátko
